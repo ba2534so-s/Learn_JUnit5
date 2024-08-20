@@ -6,6 +6,8 @@ public class LaunchCalc {
 		
 		Calc c = new Calc();
 		
+		int result = c.divide(10, 5);
+		
 	}
 
 }
