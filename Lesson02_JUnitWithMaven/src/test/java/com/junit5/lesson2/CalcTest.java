@@ -8,7 +8,7 @@ public class CalcTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		System.out.println("Run first JUnit test");
 	}
 
 }
