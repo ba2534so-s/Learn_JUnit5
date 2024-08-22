@@ -8,7 +8,7 @@ public class CalcTest {
 
 	@Test
 	public void test() {
-		System.out.println("Run first JUnit test");
+		Calc c = new Calc();
 	}
 
 }
