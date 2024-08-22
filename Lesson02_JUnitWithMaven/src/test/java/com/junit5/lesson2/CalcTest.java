@@ -9,6 +9,7 @@ public class CalcTest {
 	@Test
 	public void test() {
 		Calc c = new Calc();
+		int actualValue = c.divide(10, 5);
 	}
 
 }
