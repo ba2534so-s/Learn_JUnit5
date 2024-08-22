@@ -10,6 +10,7 @@ public class CalcTest {
 	public void test() {
 		Calc c = new Calc();
 		int actualValue = c.divide(10, 5);
+		int expectedValue = 2;
 	}
 
 }
