@@ -11,6 +11,7 @@ public class CalcTest {
 		Calc c = new Calc();
 		int actualValue = c.divide(10, 5);
 		int expectedValue = 2;
+		assertEquals(expectedValue, actualValue);
 	}
 
 }
