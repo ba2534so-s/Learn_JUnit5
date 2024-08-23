@@ -8,6 +8,10 @@ public class ReverseString {
 		int right = charArray.length - 1;
 		
 		
+		while (left < right) {
+			// Swap the chars at the left and right positions
+		}
+		
 		return new String(charArray);
 	}
 
