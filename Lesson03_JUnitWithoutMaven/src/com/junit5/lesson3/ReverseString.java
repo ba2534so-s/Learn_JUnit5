@@ -13,6 +13,11 @@ public class ReverseString {
 			char temp = charArray[left];
 			charArray[left] = charArray[right];
 			charArray[right] = temp;
+			
+			// move pointers towards each other
+			left++;
+			right--;
+			
 		}
 		
 		return new String(charArray);
