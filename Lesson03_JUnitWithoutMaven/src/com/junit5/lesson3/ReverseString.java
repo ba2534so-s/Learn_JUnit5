@@ -10,6 +10,7 @@ public class ReverseString {
 		
 		while (left < right) {
 			// Swap the chars at the left and right positions
+			char temp = charArray[left];
 		}
 		
 		return new String(charArray);
