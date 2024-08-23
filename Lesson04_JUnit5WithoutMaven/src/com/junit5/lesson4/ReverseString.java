@@ -7,6 +7,12 @@ public class ReverseString {
 		int left = 0;
 		int right = charArray.length - 1;
 		
+		while (left < right) {
+			char tmp = charArray[left];
+			charArray[left] = charArray[right];
+			charArray[right] = tmp;
+		}
+		
 		
 		return new String(charArray);
 	}
