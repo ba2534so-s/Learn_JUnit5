@@ -10,6 +10,7 @@ public class ReverseStringTest {
 	public void test() {
 		ReverseString reverse = new ReverseString();
 		String actual = reverse.reverseString("Java");
+		String expected = "avaJ";
 	}
 
 }
