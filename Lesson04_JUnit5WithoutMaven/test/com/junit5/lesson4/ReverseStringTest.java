@@ -10,7 +10,7 @@ class ReverseStringTest {
 	void test() {
 		ReverseString reverse = new ReverseString();
 		String actual = reverse.reverseString("Hello");
-		
+		String expected = "olleH";
 	}
 
 }
