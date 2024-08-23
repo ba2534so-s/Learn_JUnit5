@@ -10,6 +10,7 @@ class ReverseStringTest {
 	void test() {
 		ReverseString reverse = new ReverseString();
 		assertEquals("olleH", reverse.reverseString("Hello"));
+		assertEquals("poleveD", reverse.reverseString("Develop"));
 	}
 
 }
