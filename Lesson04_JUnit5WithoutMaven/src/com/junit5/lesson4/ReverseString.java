@@ -11,6 +11,9 @@ public class ReverseString {
 			char tmp = charArray[left];
 			charArray[left] = charArray[right];
 			charArray[right] = tmp;
+			
+			left++;
+			right--;
 		}
 		
 		
