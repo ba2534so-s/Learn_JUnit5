@@ -8,7 +8,7 @@ public class ReverseStringTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		ReverseString reverse = new ReverseString();
 	}
 
 }
