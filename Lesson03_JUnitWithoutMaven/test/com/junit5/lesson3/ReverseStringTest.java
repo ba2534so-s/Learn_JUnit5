@@ -9,6 +9,7 @@ public class ReverseStringTest {
 	@Test
 	public void test() {
 		ReverseString reverse = new ReverseString();
+		reverse.reverseString("Java");
 	}
 
 }
