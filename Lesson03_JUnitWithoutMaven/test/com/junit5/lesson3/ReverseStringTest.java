@@ -9,10 +9,7 @@ public class ReverseStringTest {
 	@Test
 	public void test() {
 		ReverseString reverse = new ReverseString();
-		String actual = reverse.reverseString("Java");
-		String expected = "avaJ";
-		
-		assertEquals(expected, actual);
+		assertEquals("avaJ", reverse.reverseString("Java"));
 	}
 
 }
