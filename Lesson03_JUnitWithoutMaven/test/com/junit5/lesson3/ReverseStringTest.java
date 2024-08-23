@@ -11,6 +11,8 @@ public class ReverseStringTest {
 		ReverseString reverse = new ReverseString();
 		String actual = reverse.reverseString("Java");
 		String expected = "avaJ";
+		
+		assertEquals(expected, actual);
 	}
 
 }
