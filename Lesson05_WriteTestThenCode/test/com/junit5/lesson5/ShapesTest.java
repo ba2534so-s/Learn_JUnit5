@@ -10,7 +10,7 @@ class ShapesTest {
 	@Test
 	void testCalcSquareArea() {
 		
-		assertEquals(576, shape.calcSquareArea(24));
+		assertEquals(576, shape.calcSquareArea(24), "calcSquareArea Failed");
 	}
 	
 	@Test
