@@ -10,5 +10,10 @@ class TestTrial {
 	void test() {
 		assertEquals(6, 3+3);
 	}
+	
+	@Test
+	void testCalcSquareArea() {
+		
+	}
 
 }
