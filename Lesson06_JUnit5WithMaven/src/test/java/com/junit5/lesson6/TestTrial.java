@@ -13,7 +13,7 @@ class TestTrial {
 	
 	@Test
 	void testCalcSquareArea() {
-		
+		Shapes shape = new Shapes();
 	}
 
 }
