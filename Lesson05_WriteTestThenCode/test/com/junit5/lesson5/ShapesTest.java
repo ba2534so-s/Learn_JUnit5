@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 class ShapesTest {
 
 	@Test
-	void test() {
+	void testCalcSquareArea() {
 		fail("Not yet implemented");
 	}
 
