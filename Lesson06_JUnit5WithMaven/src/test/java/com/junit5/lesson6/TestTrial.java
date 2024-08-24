@@ -8,7 +8,7 @@ class TestTrial {
 
 	@Test
 	void test() {
-		fail("Not yet implemented");
+		assertEquals(6, 3+3);
 	}
 
 }
