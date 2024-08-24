@@ -8,7 +8,7 @@ class ShapesTest {
 
 	@Test
 	void testCalcSquareArea() {
-		fail("Not yet implemented");
+		Shapes shape = new Shapes();
 	}
 
 }
