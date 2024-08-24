@@ -15,7 +15,7 @@ class ShapesTest {
 	
 	@Test
 	void testCalcCicleArea() {
-		
+		assertEquals(78,5, shape.calcCircleArea(5));
 	}
 
 }
