@@ -15,12 +15,12 @@ class TestShapes {
 	
 	@Test
 	void testCalcCircleArea() {
-		assertEquals(76.5, shape.calcCircleArea(5), "Area of circle calculation is wrong");
+		assertEquals(78.5, shape.calcCircleArea(5), "Area of circle calculation is wrong");
 	}
 	
 	@Test
 	void testCalcCircleArea_Supplier() {
-		assertEquals(76.5, shape.calcCircleArea(5), "Area of circle calculation is wrong");
+		assertEquals(76.5, shape.calcCircleArea(5), () -> "Area of circle calculation is wrong");
 	}
 
 }
