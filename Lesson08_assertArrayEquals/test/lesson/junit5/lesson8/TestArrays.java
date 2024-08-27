@@ -9,7 +9,7 @@ class TestArrays {
 	@Test
 	void testArrays() {
 		int[] expected = {2, 3, 7, 5};
-		
+		int[] actual = {2, 3, 5, 7};
 	}
 
 }
