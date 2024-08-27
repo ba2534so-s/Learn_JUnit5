@@ -9,8 +9,8 @@ class TestShapes {
 	Shapes shape = new Shapes();
 
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	void testCalcSquareArea() {
+		assertEquals(576, shape.calcSquareArea(24));
 	}
 
 }
