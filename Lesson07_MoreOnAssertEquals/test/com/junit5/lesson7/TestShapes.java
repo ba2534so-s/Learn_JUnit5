@@ -12,5 +12,10 @@ class TestShapes {
 	void testCalcSquareArea() {
 		assertEquals(576, shape.calcSquareArea(24));
 	}
+	
+	@Test
+	void testCalcCircleArea() {
+		assertEquals(76.5, shape.calcCircleArea(5));
+	}
 
 }
