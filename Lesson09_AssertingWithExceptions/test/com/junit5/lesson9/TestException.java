@@ -10,6 +10,8 @@ class TestException {
 
 	@Test
 	void testSortingArray_exception() {
+		int[] unsorted = {5, 2, 3};
+		
 		fail("Not yet implemented");
 	}
 
