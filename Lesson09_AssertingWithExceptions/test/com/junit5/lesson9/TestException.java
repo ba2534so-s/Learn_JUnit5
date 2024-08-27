@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 class TestException {
 
 	@Test
-	void test() {
+	void testSortingArray_exception() {
 		fail("Not yet implemented");
 	}
 
