@@ -7,8 +7,8 @@ import org.junit.jupiter.api.Test;
 class TestingPerformance {
 
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	void testSortingMethod_Performance() {
+		SortArray sort = new SortArray();
 	}
 
 }
