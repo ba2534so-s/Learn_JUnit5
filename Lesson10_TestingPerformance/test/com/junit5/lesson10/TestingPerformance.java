@@ -9,6 +9,8 @@ class TestingPerformance {
 	@Test
 	void testSortingMethod_Performance() {
 		SortArray sort = new SortArray();
+		
+		int[] unsorted = {7, 3, 4};
 	}
 
 }
