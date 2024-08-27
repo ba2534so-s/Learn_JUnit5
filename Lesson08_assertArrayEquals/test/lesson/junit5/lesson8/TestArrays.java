@@ -10,6 +10,8 @@ class TestArrays {
 	void testArrays() {
 		int[] expected = {2, 3, 7, 5};
 		int[] actual = {2, 3, 5, 7};
+		
+		assertArrayEquals(expected, actual);
 	}
 
 }
