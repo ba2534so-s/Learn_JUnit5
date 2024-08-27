@@ -7,8 +7,9 @@ import org.junit.jupiter.api.Test;
 class TestArrays {
 
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	void testArrays() {
+		int[] expected = {2, 3, 7, 5};
+		
 	}
 
 }
