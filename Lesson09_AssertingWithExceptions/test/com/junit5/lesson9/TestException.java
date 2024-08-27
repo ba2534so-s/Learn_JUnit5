@@ -10,10 +10,16 @@ class TestException {
 
 	@Test
 	void testSortingArray_exception() {
-		int[] unsorted = {5, 2, 3};
-		int[] sorted = sort.sortArray(unsorted);
 		
-		fail("Not yet implemented");
+		//int[] unsorted = {5, 2, 3};
+		//int[] sorted = sort.sortArray(unsorted);
+		try {
+			int[] unsorted = null;
+			int[] sorted = sort.sortArray(unsorted);
+		} catch (NullPointerException e) {
+			System.out.println("Exception executed");
+		}
+		
 	}
 
 }
