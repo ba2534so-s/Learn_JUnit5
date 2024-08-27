@@ -16,6 +16,13 @@ class TestException {
 		try {
 			int[] unsorted = null;
 			int[] sorted = sort.sortArray(unsorted);
+			
+			for (int i : sorted) {
+				System.out.println(i);
+			}
+			System.out.println("Statement below exception");
+			
+			
 		} catch (NullPointerException e) {
 			System.out.println("Exception executed");
 		}
