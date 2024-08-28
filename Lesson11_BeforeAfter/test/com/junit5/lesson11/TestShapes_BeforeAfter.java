@@ -6,8 +6,10 @@ import org.junit.jupiter.api.Test;
 
 class TestShapes_BeforeAfter {
 
+	
 	@Test
 	void test() {
+		Shapes shape = new Shapes();
 		fail("Not yet implemented");
 	}
 
