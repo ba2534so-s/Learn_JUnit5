@@ -9,7 +9,7 @@ class TestShapes_BeforeAfter {
 	Shapes shape;
 	
 	void init() {
-		
+		shape = new Shapes();
 	}
 	
 	
