@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 class TestShapes_BeforeAfter {
 
 	@BeforeAll
-	void beforeAll() {
+	static void beforeAll() {
 		
 	}
 	
