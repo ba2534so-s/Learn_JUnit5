@@ -10,7 +10,7 @@ class TestShapes_BeforeAfter {
 	@Test
 	void testCalcSquareArea() {
 		Shapes shape = new Shapes();
-		
+		assertEquals(576, shape.calcSquareArea(24));
 	}
 
 }
