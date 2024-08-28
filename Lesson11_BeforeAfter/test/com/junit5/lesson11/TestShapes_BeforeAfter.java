@@ -11,7 +11,7 @@ class TestShapes_BeforeAfter {
 
 	@BeforeAll
 	static void beforeAll() {
-		
+		System.out.println("Before All Tests");
 	}
 	
 	Shapes shape;
