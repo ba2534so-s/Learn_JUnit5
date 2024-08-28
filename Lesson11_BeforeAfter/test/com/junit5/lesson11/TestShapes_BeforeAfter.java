@@ -8,9 +8,9 @@ class TestShapes_BeforeAfter {
 
 	
 	@Test
-	void test() {
+	void testCalcSquareArea() {
 		Shapes shape = new Shapes();
-		fail("Not yet implemented");
+		
 	}
 
 }
