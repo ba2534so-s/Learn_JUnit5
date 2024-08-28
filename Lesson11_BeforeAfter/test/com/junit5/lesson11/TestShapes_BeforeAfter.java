@@ -6,6 +6,8 @@ import org.junit.jupiter.api.Test;
 
 class TestShapes_BeforeAfter {
 
+	Shapes shape;
+	
 	
 	@Test
 	void testCalcSquareArea() {
