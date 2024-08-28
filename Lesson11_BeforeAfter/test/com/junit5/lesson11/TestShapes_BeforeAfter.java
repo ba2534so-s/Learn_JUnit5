@@ -18,13 +18,11 @@ class TestShapes_BeforeAfter {
 	
 	@Test
 	void testCalcSquareArea() {
-		Shapes shape = new Shapes();
 		assertEquals(576, shape.calcSquareArea(24));
 	}
 	
 	@Test
 	void testCalcCircleArea() {
-		Shapes shape = new Shapes();
 		assertEquals(78.5, shape.calcCircleArea(5));
 	}
 
