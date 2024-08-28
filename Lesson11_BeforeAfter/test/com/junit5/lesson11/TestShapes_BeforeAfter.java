@@ -48,6 +48,7 @@ class TestShapes_BeforeAfter {
 	@AfterAll
 	static void afterAll() {
 		System.out.println("After All Tests");
+		System.out.println("Closing Tests...");
 	}
 
 }
