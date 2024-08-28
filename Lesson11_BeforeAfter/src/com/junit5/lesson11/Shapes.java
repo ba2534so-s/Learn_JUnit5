@@ -7,7 +7,7 @@ public class Shapes {
 	}
 	
 	public double calcCircleArea(double radius) {
-		
+		return 3.14 * radius * radius;
 	}
 
 }
