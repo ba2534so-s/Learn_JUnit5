@@ -11,7 +11,7 @@ import org.junit.jupiter.api.Test;
 class TestShapes_BeforeAfter {
 
 	TestShapes_BeforeAfter() {
-		
+		System.out.println("Test object created");
 	}
 	
 	@BeforeAll
