@@ -12,5 +12,10 @@ class TestShapes_BeforeAfter {
 		Shapes shape = new Shapes();
 		assertEquals(576, shape.calcSquareArea(24));
 	}
+	
+	@Test
+	void testCalcCircleArea() {
+		
+	}
 
 }
