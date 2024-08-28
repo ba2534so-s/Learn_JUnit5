@@ -3,13 +3,18 @@ package com.junit5.lesson11;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 class TestShapes_BeforeAfter {
 
-	Shapes shape;
+	@BeforeAll
+	void beforeAll() {
+		
+	}
 	
+	Shapes shape;
 	
 	// Usually used to get resources that the test methods use
 	@BeforeEach
