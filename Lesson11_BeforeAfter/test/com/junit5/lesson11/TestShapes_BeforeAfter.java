@@ -15,6 +15,7 @@ class TestShapes_BeforeAfter {
 	
 	@Test
 	void testCalcCircleArea() {
+		Shapes shape = new Shapes();
 		
 	}
 
