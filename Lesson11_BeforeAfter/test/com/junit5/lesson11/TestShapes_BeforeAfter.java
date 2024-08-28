@@ -31,7 +31,7 @@ class TestShapes_BeforeAfter {
 	
 	@AfterEach
 	void destroy() {
-		
+		System.out.println("After Test");
 	}
 
 }
