@@ -8,6 +8,10 @@ class TestShapes_BeforeAfter {
 
 	Shapes shape;
 	
+	void init() {
+		
+	}
+	
 	
 	@Test
 	void testCalcSquareArea() {
