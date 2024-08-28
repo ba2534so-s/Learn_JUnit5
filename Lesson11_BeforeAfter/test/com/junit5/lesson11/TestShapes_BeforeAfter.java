@@ -19,6 +19,7 @@ class TestShapes_BeforeAfter {
 	@Test
 	void testCalcSquareArea() {
 		assertEquals(576, shape.calcSquareArea(24));
+		System.out.println("Testing calcSquareArea");
 	}
 	
 	@Test
