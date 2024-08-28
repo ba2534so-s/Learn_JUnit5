@@ -10,6 +10,8 @@ class TestShapes_BeforeAfter {
 
 	Shapes shape;
 	
+	
+	// Usually used to get resources that the test methods use
 	@BeforeEach
 	void init() {
 		shape = new Shapes();
@@ -29,6 +31,8 @@ class TestShapes_BeforeAfter {
 		System.out.println("Testing calcCircleArea");
 	}
 	
+	
+	// Usually used to close/destroy resources that the test methods use
 	@AfterEach
 	void destroy() {
 		System.out.println("After Test");
