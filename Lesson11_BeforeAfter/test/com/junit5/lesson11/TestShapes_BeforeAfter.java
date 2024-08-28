@@ -10,6 +10,10 @@ import org.junit.jupiter.api.Test;
 
 class TestShapes_BeforeAfter {
 
+	TestShapes_BeforeAfter() {
+		
+	}
+	
 	@BeforeAll
 	static void beforeAll() {
 		System.out.println("Starting tests...");
