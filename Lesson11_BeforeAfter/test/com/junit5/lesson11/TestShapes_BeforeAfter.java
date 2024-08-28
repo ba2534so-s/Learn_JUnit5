@@ -2,6 +2,7 @@ package com.junit5.lesson11;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -26,6 +27,11 @@ class TestShapes_BeforeAfter {
 	void testCalcCircleArea() {
 		assertEquals(78.5, shape.calcCircleArea(5));
 		System.out.println("Testing calcCircleArea");
+	}
+	
+	@AfterEach
+	void destroy() {
+		
 	}
 
 }
