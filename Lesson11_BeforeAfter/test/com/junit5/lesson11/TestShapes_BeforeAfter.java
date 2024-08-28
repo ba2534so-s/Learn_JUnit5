@@ -25,6 +25,7 @@ class TestShapes_BeforeAfter {
 	@Test
 	void testCalcCircleArea() {
 		assertEquals(78.5, shape.calcCircleArea(5));
+		System.out.println("Testing calcCircleArea");
 	}
 
 }
